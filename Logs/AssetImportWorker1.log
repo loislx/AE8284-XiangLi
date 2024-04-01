@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59322
+49311
 Successfully changed project path to: /Users/lixiang/GameEngine1_Personal
 /Users/lixiang/GameEngine1_Personal
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/lixiang/GameEngine1_Personal
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7939120192] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 3393907074 [EditorId] 3393907074 [Version] 1048832 [Id] OSXEditor(0,lixiangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7939120192] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1868846221 [EditorId] 1868846221 [Version] 1048832 [Id] OSXEditor(0,lixiangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7939120192] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 3393907074 [EditorId] 3393907074 [Version] 1048832 [Id] OSXEditor(0,lixiangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7939120192] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 1868846221 [EditorId] 1868846221 [Version] 1048832 [Id] OSXEditor(0,lixiangdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 29.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 10.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,52 +76,52 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56955
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56511
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.017756 seconds.
-- Loaded All Assemblies, in  0.343 seconds
+Registered in 0.004409 seconds.
+- Loaded All Assemblies, in  0.297 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 233 ms
+Android Extension - Scanning For ADB Devices 230 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.504 seconds
-Domain Reload Profiling: 847ms
-	BeginReloadAssembly (120ms)
+- Finished resetting the current domain, in  0.491 seconds
+Domain Reload Profiling: 788ms
+	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (121ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (104ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (116ms)
 			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (99ms)
+				TypeCache.ScanAssembly (101ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (504ms)
+	FinalizeReload (491ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (467ms)
+		SetupLoadedEditorAssemblies (456ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (373ms)
+			InitializePlatformSupportModulesInManaged (369ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (64ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (59ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,8 +129,8 @@ Domain Reload Profiling: 847ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.544 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -139,48 +139,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.673 seconds
-Domain Reload Profiling: 1217ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1273ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (23ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (405ms)
-		LoadAssemblies (255ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (291ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (162ms)
-				TypeCache.ScanAssembly (140ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (674ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (537ms)
+		SetupLoadedEditorAssemblies (532ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (383ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 125 unused Assets / (2.6 MB). Loaded Objects now: 6960.
-Memory consumption went from 367.0 MB to 364.4 MB.
-Total: 5.875000 ms (FindLiveObjects: 0.244709 ms CreateObjectMapping: 0.087833 ms MarkObjects: 4.256917 ms  DeleteObjects: 1.284333 ms)
+Unloading 6714 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 147 unused Assets / (3.8 MB). Loaded Objects now: 7153.
+Memory consumption went from 387.0 MB to 383.1 MB.
+Total: 24.461958 ms (FindLiveObjects: 4.800083 ms CreateObjectMapping: 0.737625 ms MarkObjects: 13.225000 ms  DeleteObjects: 5.696541 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -197,455 +197,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14600.918030 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7491e9def604e5f9e6170004e837ede') in 0.006763 seconds
+  Time since last request: 18013.667760 seconds.
+  path: Assets/Samples/ProBuilder/5.2.2/Universal Render Pipeline Support
+  artifactKey: Guid(c4bcade8335ca428881993c4814854f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/5.2.2/Universal Render Pipeline Support using Guid(c4bcade8335ca428881993c4814854f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cfb40c5a99829982949e0ceab86b0f') in 0.009877 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 13.400880 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Models/Box.fbx
-  artifactKey: Guid(32735b9ee3b90df4fbc4a5f3a47f17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Models/Box.fbx using Guid(32735b9ee3b90df4fbc4a5f3a47f17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43edc012b3cbb06486e4c9aff7d421a') in 0.341269 seconds
+  Time since last request: 468.312676 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Props/Materials/Switch_Mat.mat
+  artifactKey: Guid(25f432de59fe988418cf97841b36936a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Props/Materials/Switch_Mat.mat using Guid(25f432de59fe988418cf97841b36936a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28424818fad122369cab40008a8f717d') in 0.379484 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Models/Key.fbx
-  artifactKey: Guid(c50224f5d3df8844cb88ca8dcbeb374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Models/Key.fbx using Guid(c50224f5d3df8844cb88ca8dcbeb374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bc5d61ac41c134ac782ec4dca05796') in 0.053975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Models/SwitchStanding.fbx
-  artifactKey: Guid(7d3c05bccd7388942bcf8215cf4481c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Models/SwitchStanding.fbx using Guid(7d3c05bccd7388942bcf8215cf4481c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b892dddca6fea688ff19c31511e834a1') in 0.040621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 29
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Models/HealthBox.fbx
-  artifactKey: Guid(792345487fc70ac46a72b1a691b87c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Models/HealthBox.fbx using Guid(792345487fc70ac46a72b1a691b87c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cb679fd08fe0266ea65ee7435be510') in 0.041734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Models/WeaponPedestal.fbx
-  artifactKey: Guid(cd96dbadb2499904992a3bb6b5cf37f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Models/WeaponPedestal.fbx using Guid(cd96dbadb2499904992a3bb6b5cf37f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee2b31018aafe152177ad46a7a02fc3') in 0.025946 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 247.778712 seconds.
-  path: Assets/3DGamekitLite/Prefabs/Interactables/DeathVolume.prefab
-  artifactKey: Guid(79d3ae4a02697af45a2eb0366b59066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Prefabs/Interactables/DeathVolume.prefab using Guid(79d3ae4a02697af45a2eb0366b59066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e69b33c3e2de768d462adb6633955d') in 0.046503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.001035 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Models/DoorHuge01.fbx
-  artifactKey: Guid(b33dd59805f09cb4f94bc163dcdb2dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Models/DoorHuge01.fbx using Guid(b33dd59805f09cb4f94bc163dcdb2dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c2539a0a5a77673d39d373ba8a4ab') in 0.295906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 75.771036 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/Blue_Mat.mat
-  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06983fdb792276b30cbdba645ff208f') in 0.120522 seconds
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
+  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf12192fc4d6e8e0b19b71af634e726') in 0.022201 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000781 seconds.
-  path: Assets/3DGamekitLite/Art/Materials/Effects/BoxDebris.mat
-  artifactKey: Guid(3930d7b21ea60ef4d999115dbc45e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Art/Materials/Effects/BoxDebris.mat using Guid(3930d7b21ea60ef4d999115dbc45e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5ea3375ae2265ed78981b122f84f08') in 0.014513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Materials/Box_Mat.mat
-  artifactKey: Guid(c90acb39326143642a25b630416a7c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Materials/Box_Mat.mat using Guid(c90acb39326143642a25b630416a7c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4497c878a7ca606cad50853859f5ab8') in 0.047062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Materials/BoxDissolve_Mat.mat
-  artifactKey: Guid(bc9add680f5479b4c92e1e22e00c3687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Materials/BoxDissolve_Mat.mat using Guid(bc9add680f5479b4c92e1e22e00c3687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d49b4b70677ab45116c099e0a7ac7') in 0.019326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Internals_Mat.mat
-  artifactKey: Guid(4b16268047716604e8906338172a7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Internals_Mat.mat using Guid(4b16268047716604e8906338172a7efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58d123bef488f542e5b43811a593928') in 0.146341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Body_Mat.mat
-  artifactKey: Guid(dad26cc8af5eca141b973d06942e6efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Character Pack/Characters/Chomper/Materials/Chomper_Body_Mat.mat using Guid(dad26cc8af5eca141b973d06942e6efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3742438e23794f31f3bfd666bfb272') in 0.012683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
-  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5feb01270ee0f4e6330e7886e55e1450') in 0.010219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 13.797372 seconds.
-  path: Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Dissolve_Particle_Mat.mat
-  artifactKey: Guid(67a564850ea57ff4da16adc9c5807406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Dissolve_Particle_Mat.mat using Guid(67a564850ea57ff4da16adc9c5807406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104a06bd34a7e17a04e964593d7c525e') in 0.529949 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Dropship/Materials/Dropship_01_Mat.mat
-  artifactKey: Guid(ceacc89730515714ba02cef1afa41521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Dropship/Materials/Dropship_01_Mat.mat using Guid(ceacc89730515714ba02cef1afa41521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d5f615a5c52a1222098c24ccdcb269') in 0.139093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/3DGamekitLite/Art/Materials/Interactables/Door.mat
-  artifactKey: Guid(86760222214270d469faea8c356cc4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Art/Materials/Interactables/Door.mat using Guid(86760222214270d469faea8c356cc4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740a70bd77f00497ed89594b29e13f14') in 0.013811 seconds
+  Time since last request: 0.000106 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8350dc9cd7fd01d27e4086b2f0991f0') in 0.090941 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/DoorHuge01_Mat.mat
-  artifactKey: Guid(aa21bc8da8405dd4a82fb23c3779d08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/DoorHuge01_Mat.mat using Guid(aa21bc8da8405dd4a82fb23c3779d08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39a5146ce6c9bc1d65e30278fa7136c7') in 0.027926 seconds
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph
+  artifactKey: Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph using Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd125a0adc51893a6241958bc326af107') in 0.201056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd4bf9ac1729167f86e35219f221001') in 0.010446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.893698 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Wall01_Mat.mat
+  artifactKey: Guid(326d338815570844bba9082517b13153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Wall01_Mat.mat using Guid(326d338815570844bba9082517b13153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a03dfc5f2fa2300c57588fad3de99a') in 0.093514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.500286 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Wall02_Mat.mat
+  artifactKey: Guid(2cd607346dbd37f41a37f41616cd5cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Wall02_Mat.mat using Guid(2cd607346dbd37f41a37f41616cd5cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a53bb688b391b033589cf2415b3f2cd') in 0.050055 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Dropship/Materials/Dropship_03_Mat.mat
-  artifactKey: Guid(7a789884b6c7b5d41b87337c5fc29995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Dropship/Materials/Dropship_03_Mat.mat using Guid(7a789884b6c7b5d41b87337c5fc29995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c53ebfd0219d12b934b4fcf049e23d') in 0.801081 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.235302 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Materials/Crystal_Mat.mat
-  artifactKey: Guid(022a0b8394af9d343acfc52bf61093cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Materials/Crystal_Mat.mat using Guid(022a0b8394af9d343acfc52bf61093cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6595ad94c87f0d4386cb6036cb2282') in 0.015277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.194554 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Materials/Statue_Mossy_Mat.mat
-  artifactKey: Guid(3c82a8aa07a59ce478ec8ae1fc400584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Materials/Statue_Mossy_Mat.mat using Guid(3c82a8aa07a59ce478ec8ae1fc400584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b042b5d888afc67adb807b5c72a48c') in 0.028160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 124.045401 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Tunnel_Mesh.fbx
-  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed485b804347be525407205c0495269') in 0.077331 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Box_350x250x200_Mesh.fbx
-  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c948b1949724dc71155c9f1308faa51d') in 0.053877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Prefabs/Box_350x250x200_Prefab.prefab
-  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829817bd26f248fbad60d48ea66cd382') in 0.885374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Prefabs/Box_100x100x100_Prefab.prefab
-  artifactKey: Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Prefabs/Box_100x100x100_Prefab.prefab using Guid(e5f4daf24146ee040b5a2d7a73b30aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59dfdf555cda4d8d9a39000e0a4a2e6') in 0.013947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/Box_Albedo.tif
-  artifactKey: Guid(8a9d5557235013a47890ceb510b06ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/Box_Albedo.tif using Guid(8a9d5557235013a47890ceb510b06ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5711c9e34ee3fd95bec2b2e1f3b77fb') in 0.039407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.564225 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Emission.tif
-  artifactKey: Guid(d452b1e1b50fd664d9e5d199ae04d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Emission.tif using Guid(d452b1e1b50fd664d9e5d199ae04d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc599c7cd3eebffa8ef52843878802f7') in 0.008425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Occlusion.tif
-  artifactKey: Guid(2431304856ff8aa4db0de818740c439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Occlusion.tif using Guid(2431304856ff8aa4db0de818740c439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '686472cb5d892651c08654ff6529e683') in 0.008075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Normal.tif
-  artifactKey: Guid(064a63d73243e9a458c4d55aacfbad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/BoxBreakable_Normal.tif using Guid(064a63d73243e9a458c4d55aacfbad98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632eb4991bcb7a184da07330ad095eb8') in 0.069566 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 222.023822 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/Statue_Normal.tif
-  artifactKey: Guid(3c03fe7ac1582684e9a30e6d0df1a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/Statue_Normal.tif using Guid(3c03fe7ac1582684e9a30e6d0df1a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb6fdb87bec51bf219afcb5e30a44bc') in 0.069608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Props/Textures/Statue_MetallicSmooth.tif
-  artifactKey: Guid(d84cb3f3c8fbf0b4cbbec1206b9a6a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Props/Textures/Statue_MetallicSmooth.tif using Guid(d84cb3f3c8fbf0b4cbbec1206b9a6a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe0f79ab62db0cf54cd8e3cec1c041d') in 0.010710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/3D Game Kit - Props Pack/Environment/Rocks/Textures/RockDetail_normal.tif
-  artifactKey: Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Environment/Rocks/Textures/RockDetail_normal.tif using Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b63ec74ee8d3bf7c8c9c3e14d4871a5') in 0.005861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 600.982106 seconds.
-  path: Assets/3DGamekitLite/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Packages/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe36d7d3b9f6c08e6c7d3e3ccfe200') in 0.377166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
-  artifactKey: Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat using Guid(9564d3bbc73fcb64792156cb4e2758a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f816f22d37e6a1e0bc5441c2979f6cb5') in 0.052386 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
-  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c1d151eaf682c97f151244586932c0') in 0.029919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
-  artifactKey: Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.starter-assets/Runtime/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat using Guid(3ffbe936d08df274e97d160a90856750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e99a1eb28d87301886f85e015a2fc28') in 0.017976 seconds
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallCornerBig01Broken_Mat.mat
+  artifactKey: Guid(e197c91a5a0658e45855058cc6570ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallCornerBig01Broken_Mat.mat using Guid(e197c91a5a0658e45855058cc6570ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75fe1ce51cfa1a8890ae3bc63bf666d') in 0.034114 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
-  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983e9096321086df8e770e108401895d') in 0.006936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.725017 seconds.
-  path: Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-Medium SDF.asset
-  artifactKey: Guid(4f372c329adda324b8e34cc0e26c4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-Medium SDF.asset using Guid(4f372c329adda324b8e34cc0e26c4cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c0e7b731f612905177bdd39200c079') in 0.112341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/SmallDoor_Mat.mat
-  artifactKey: Guid(5cd2525bc73586347b2d4114aaad788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/SmallDoor_Mat.mat using Guid(5cd2525bc73586347b2d4114aaad788e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cfb09c91eaaac5cd7b2615f04db3fc') in 0.040848 seconds
+  Time since last request: 0.000137 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallHuge01_Mat.mat
+  artifactKey: Guid(3f63094f480a91f43889dd69c30540a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallHuge01_Mat.mat using Guid(3f63094f480a91f43889dd69c30540a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d494d34ba1be578a200c392ef570d4') in 0.034674 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-SemiBold SDF.asset
-  artifactKey: Guid(4c1f115f2c9b80b4cabb22cae230db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-SemiBold SDF.asset using Guid(4c1f115f2c9b80b4cabb22cae230db1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e83df4161129345ea0b904c19f08354') in 0.031969 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-SemiBold SDF UIButton.mat
-  artifactKey: Guid(c64de538f27a5b342a025d5db50d19cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Packages/TextMesh Pro/Fonts/Rajdhani-SemiBold SDF UIButton.mat using Guid(c64de538f27a5b342a025d5db50d19cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a44216bfd7e3d4e0b20e995a40313') in 0.018373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Skybox/SkyboxLiteWarm.mat
-  artifactKey: Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Skybox/SkyboxLiteWarm.mat using Guid(aeab33f69c199e54794f516d31450ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a48d5c63968456f8ea84c1ab0f4a5e') in 0.029193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
-  artifactKey: Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat using Guid(4589b87b8508f6e48b8fddb385924b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b21ff7cbf47ba32ac0d7d779de5561') in 1.128364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 1.172029 seconds.
-  path: Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Ramp_Mesh.fbx
-  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/Starter Assets/0.1.0/Controllers Sample/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a07eeaad9df1dbba3a7e320e66ce7b2') in 0.031099 seconds
+  Time since last request: 0.869648 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallTall_Long_mat.mat
+  artifactKey: Guid(d38a57c924e0bca4f99693b01ea4fea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallTall_Long_mat.mat using Guid(d38a57c924e0bca4f99693b01ea4fea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e6b3100c502ec1a902e0147ad379c7') in 0.048245 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph
-  artifactKey: Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ArnoldStandardSurface/ArnoldStandardSurfaceTransparent.shadergraph using Guid(30fa68ce467463643a86b839ca0eb195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bbfe1954d581a4f03b38e099b22992') in 1.103268 seconds
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallTall_Short_mat.mat
+  artifactKey: Guid(bb838f9031e07084ba7dedfcce8cc557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/WallTall_Short_mat.mat using Guid(bb838f9031e07084ba7dedfcce8cc557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391e34aeb75a444b44f6d8fdf296072f') in 0.024306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 9.417099 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Statue_Mat.mat
+  artifactKey: Guid(77e0c82a96255d0409ae839c23997274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/Statue_Mat.mat using Guid(77e0c82a96255d0409ae839c23997274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63ade867c082ab319d3eff64d905b09') in 0.029165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.811108 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
+  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996389a19e17d6e4a0407e8f052744fc') in 0.980374 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/3DGamekitLite/Art/Models/Effects/Materials/Acid_Bubble_Mat.mat
-  artifactKey: Guid(607cc577b99f05d45a129d7739042bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Art/Models/Effects/Materials/Acid_Bubble_Mat.mat using Guid(607cc577b99f05d45a129d7739042bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d93b031e5e327e257e1afcdc44f689') in 0.009656 seconds
+  Time since last request: 2.886955 seconds.
+  path: Assets/Samples/ProBuilder/5.2.2/Universal Render Pipeline Support/Shader/Standard Vertex Color.shadergraph
+  artifactKey: Guid(a5e1047f27bee462089b2bc3104f90fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/ProBuilder/5.2.2/Universal Render Pipeline Support/Shader/Standard Vertex Color.shadergraph using Guid(a5e1047f27bee462089b2bc3104f90fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd947c114a797887669d2db129c576aa3') in 0.015627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsWide_mat.mat
+  artifactKey: Guid(80fada4b65ca27e40b0391b92c8fe136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsWide_mat.mat using Guid(80fada4b65ca27e40b0391b92c8fe136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02260554bfd1c1c1eb2ce90ed19e75a') in 0.042758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006321 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsNarrow01_Mat.mat
+  artifactKey: Guid(049606f690e98a949bc26f5a5c210b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsNarrow01_Mat.mat using Guid(049606f690e98a949bc26f5a5c210b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f5556a3b749a111079a09e1064eff6') in 0.037564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.372529 seconds.
+  path: Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsCircular01_Mat.mat
+  artifactKey: Guid(6301438681abcdd4081173f72ff42803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Props Pack/Props/Stonework/Materials/StairsCircular01_Mat.mat using Guid(6301438681abcdd4081173f72ff42803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93737978daac0bd4eb0d287fea561f2b') in 0.026124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.346509 seconds.
+  path: Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Staff_Particle_Mat.mat
+  artifactKey: Guid(b5c5f3cd82bfc524f94fff54f79e4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Staff_Particle_Mat.mat using Guid(b5c5f3cd82bfc524f94fff54f79e4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e9161738a1ba16345773c9444f6c93') in 0.118607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Staff_Hit_Particle_01_Mat.mat
+  artifactKey: Guid(69ff5c7ce0ae4e848b4be56f3b4d40b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DGamekitLite/Art/Materials/Effects/Characters/Ellen/Staff_Hit_Particle_01_Mat.mat using Guid(69ff5c7ce0ae4e848b4be56f3b4d40b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aa4ddde7a0bfd3d4b8bee772305300') in 0.012369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.018521 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
+  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce21cc6ceed9c58af3412bc498426603') in 0.020314 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/3DGamekitLite/Art/Materials/Interactables/Acid.mat
-  artifactKey: Guid(200ee9888db3e7145a31185ba6a0bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3DGamekitLite/Art/Materials/Interactables/Acid.mat using Guid(200ee9888db3e7145a31185ba6a0bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd3ad46568806d94483d87bb7d85caf') in 0.692876 seconds
+  Time since last request: 0.043721 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a385e6bbb870b7bf9cbc35e69654626d') in 0.014654 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x2b03ef000 may have been prematurely finalized
-- Loaded All Assemblies, in  1.239 seconds
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.879 seconds
-Domain Reload Profiling: 3119ms
-	BeginReloadAssembly (476ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (38ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (195ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (705ms)
-		LoadAssemblies (802ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (72ms)
-			TypeCache.Refresh (28ms)
-				TypeCache.ScanAssembly (11ms)
-			ScanForSourceGeneratedMonoScriptInfo (32ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1880ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (689ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (137ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (407ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6502 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 123 unused Assets / (5.9 MB). Loaded Objects now: 7222.
-Memory consumption went from 353.2 MB to 347.3 MB.
-Total: 17.866625 ms (FindLiveObjects: 0.583041 ms CreateObjectMapping: 0.478709 ms MarkObjects: 15.197459 ms  DeleteObjects: 1.606542 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 0f5f72dab822025b0759b197a3119d15 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Received Import Request.
+  Time since last request: 0.362252 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Spitter/Materials/Spitter_Body_Mat.mat
+  artifactKey: Guid(0ef55e615d8ada44085ccce2062b647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Spitter/Materials/Spitter_Body_Mat.mat using Guid(0ef55e615d8ada44085ccce2062b647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ab2753c623e90a8f0e588c57f5e3a') in 0.015751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/3D Game Kit - Character Pack/Characters/Spitter/Materials/Spitter_Internals_Mat.mat
+  artifactKey: Guid(ad62a3727ae35064c9db3c79da7bb7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Character Pack/Characters/Spitter/Materials/Spitter_Internals_Mat.mat using Guid(ad62a3727ae35064c9db3c79da7bb7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e967eb5019aca38f73a0ad74dd993d') in 0.014453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 3.102187 seconds.
+  path: Assets/3DGamekitLite/Art/Materials/Effects/Characters/Spitter/Spitter_Acid_Particle_Mat.mat
+  artifactKey: Guid(6bf795c07ada0594f8f064dd364759dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DGamekitLite/Art/Materials/Effects/Characters/Spitter/Spitter_Acid_Particle_Mat.mat using Guid(6bf795c07ada0594f8f064dd364759dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c710165c12d34ef6706572e2eeace6f') in 1.149300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1534255f716e90e7d13dc08791b92bd1') in 0.016680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
+  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43694a52e6d7d43acd68909915152072') in 0.011222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.692115 seconds.
+  path: Assets/XiangMaterial/RoomMaterial.mat
+  artifactKey: Guid(882eddfbf348c42d1a4e4cdf32a35f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XiangMaterial/RoomMaterial.mat using Guid(882eddfbf348c42d1a4e4cdf32a35f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3550d8e8c7c110bde8f0ff5d035796ef') in 0.023168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
