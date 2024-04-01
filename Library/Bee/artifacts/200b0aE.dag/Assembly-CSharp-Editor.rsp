@@ -385,6 +385,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.ShaderGraph.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.StarterAssets.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.StarterAssets.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TerrainTools.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.TerrainTools.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.ref.dll"
